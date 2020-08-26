@@ -94,7 +94,7 @@ public class Field implements IFieldObservable {
 		rtn.append("   ");
 		for (int i = 0; i < sizeCol; i++) {
 			rtn.append(i);
-			rtn.append(" ");
+			rtn.append("  ");
 		}
 		
 		rtn.append('\n');
@@ -105,9 +105,9 @@ public class Field implements IFieldObservable {
 			rtn.append("  ");
 			for (int j = 0; j < field[i].length; j++) {
 				rtn.append(field[i][j].getChar());
-				rtn.append(" ");
+				rtn.append("  ");
 			}
-			rtn.append(" \n");
+			rtn.append("\n");
 		}
 				
 		return rtn;

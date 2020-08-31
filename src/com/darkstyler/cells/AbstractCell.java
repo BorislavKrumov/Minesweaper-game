@@ -22,17 +22,6 @@ public char getChar() {
 	else
 		return this.getSymbol();
 }
-public void toggleCellFlag() {
-	
-	if (state==CellState.REVEALED){
-		return; 
-	}
-	else{
-		state=CellState.HIDDEN;
-	}
-	
-}
-
 public void clickCell(){
 		setState(CellState.REVEALED);
 }
